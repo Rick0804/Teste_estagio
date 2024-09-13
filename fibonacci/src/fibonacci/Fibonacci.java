@@ -21,8 +21,8 @@ public class Fibonacci {
             
             System.out.println("O numero desejado nao pertence a sequencia");
             
-        }
+      }
         
-    }
+}
    
 
