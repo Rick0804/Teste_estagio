@@ -10,20 +10,19 @@ public class Fibonacci {
         int numero = scan.nextInt();
         int soma = 1;
         int i = 0;
-        do {
-            if(numero == 0 || numero == soma){
-                System.out.println("este numero pertence a sequencia");
-                return;
-            }
-            soma += i;
-            i = soma - i;
-        } while(i < numero);
+           do {
+               if(numero == 0 || numero == soma){
+                   System.out.println("este numero pertence a sequencia");
+                   return;
+               }
+               soma += i;
+               i = soma - i;
+           } while(i < numero);
             
             System.out.println("O numero desejado nao pertence a sequencia");
             
-
         }
         
     }
-    
+   
 
