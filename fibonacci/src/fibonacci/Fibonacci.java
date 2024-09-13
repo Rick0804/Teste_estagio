@@ -2,8 +2,6 @@ package fibonacci;
 import java.util.Scanner;
 import java.util.Locale;
 public class Fibonacci {
-
-   
     public static void main(String[] args) {
         System.out.print("Insira um numero: ");
         Scanner scan = new Scanner(System.in);
